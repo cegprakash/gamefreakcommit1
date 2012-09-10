@@ -1,5 +1,16 @@
-#include "constants.h"
+#include"constants.h"
+#include"player1.h"
 
-int Player1::getmove (){ //Player1's implementation
-          return rand()%8;   
+void Player1::getmove (){ //Player1's implementation
+          position=rand()%10;
 }
+
+void Player1::setPosition(int pos){
+     this.position=pos;
+}
+
+int Player1::getPosition(){
+     return this.position;
+}
+
+

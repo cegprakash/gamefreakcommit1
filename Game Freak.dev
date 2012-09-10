@@ -1,7 +1,7 @@
 [Project]
 FileName=Game Freak.dev
 Name=Game Freak
-UnitCount=6
+UnitCount=4
 Type=1
 Ver=1
 ObjFiles=
@@ -29,38 +29,8 @@ SupportXPThemes=0
 CompilerSet=0
 CompilerSettings=
 
-[Unit1]
-FileName=constants.h
-CompileCpp=1
-Folder=
-Compile=1
-Link=1
-Priority=1000
-OverrideBuildCmd=0
-BuildCmd=
-
 [Unit2]
-FileName=game.cpp
-CompileCpp=1
-Folder=
-Compile=1
-Link=1
-Priority=1000
-OverrideBuildCmd=0
-BuildCmd=
-
-[Unit3]
-FileName=player1.cpp
-CompileCpp=1
-Folder=
-Compile=1
-Link=1
-Priority=1000
-OverrideBuildCmd=0
-BuildCmd=
-
-[Unit4]
-FileName=player2.cpp
+FileName=player1.h
 CompileCpp=1
 Folder=
 Compile=1
@@ -70,7 +40,7 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit7]
-FileName=player2.h
+FileName=game.h
 CompileCpp=1
 Folder=
 Compile=1
@@ -108,7 +78,37 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit5]
-FileName=player1.h
+FileName=game.h
+CompileCpp=1
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit3]
+FileName=player2.h
+CompileCpp=1
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit4]
+FileName=game.h
+CompileCpp=1
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit1]
+FileName=game.cpp
 CompileCpp=1
 Folder=
 Compile=1
